@@ -1,0 +1,11 @@
+<input type="text" id="inputBox" onkeyup="text()" />
+<h1 id="result"></h1>
+
+<script>
+  var inputText = document.getElementById("inputBox");
+  var result = document.getElementById("result");
+
+  function text() {
+    result.textContent = inputText.value;
+  }
+</script>
